@@ -14,7 +14,7 @@ class Parallelepipede(Rectangle):
          self.height = height
 
      def Volume(self):
-         print(f"Volume parallelepipede = {self.area() * self.width} cm^3")
+         print(f"Volume parallelepipede = {self.length * self.width * self.width} cm^3")
 
 n = input("input 1 for Perimeter\ninput 2 for Area\ninput 3 for Voliume\n")
 

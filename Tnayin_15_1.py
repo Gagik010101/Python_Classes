@@ -14,8 +14,7 @@ class Student(Person):
         self.section = section
 
     def student(self):
-        Person.display(self)
-        print("student in ", self.section, "section")
+        print(f"The students age is {self.age}\nThe students name is {self.name} \nstudent in {self.section} section")
 
 
 name = input("input students Name:\t")

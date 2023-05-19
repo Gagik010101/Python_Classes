@@ -4,3 +4,6 @@ class Animal:
 
     def __str__(self):
         return self.name
+    
+    def __del__(self):
+        print(f"MISSION COMPLETED +")

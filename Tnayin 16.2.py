@@ -50,7 +50,7 @@ print(M8)
 print(M8.information())
 print(M8.appearance_and_power())
 print(M8.to_buy())
-
+print(type(M8), "\n")
 print(ferrari)
 print(ferrari.information())
 print(ferrari.to_buy())
